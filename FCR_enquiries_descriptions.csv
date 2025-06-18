@@ -1,0 +1,25 @@
+field_path,data_type,description
+weddingid,STRING,ID of wedding of couple enquiring
+suppId,STRING,ID of supplier enquired to
+ids,STRING,Concatenation of weddingid and supplier id
+mobileApp,BOOL,Enquiry-level property taken from emailed_supplier event to indicate if couple enquired via mobile
+week,INT64,Calendar week of the enquiry
+enquiryid,STRING,Enquiry-level property taken from emailed_supplier event to indicate enquiryid
+supplierTier,FLOAT64,Supplier-level property taken from suppliers_current table to indicate tier of supplier
+weddingDate,STRING,Enquiry-level property taken from emailed_supplier event to indicate date of wedding
+contactedSupplierCounty,STRING,Enquiry-level property taken from emailed_supplier event to indicate supplier county
+year,INT64,Year of enquiry
+weekStartDt,DATE,Start date of the week of enquiry (Monday)
+enqTime,TIMESTAMP,Enquiry-level property taken from emailed_supplier event to indicate time of initial enquiry
+cm1_check,INT64,Indicator for step 1 of FCR funnel i.e. couple has sent out initial enquiry
+smr_time,TIMESTAMP,Timestamp for step 2 of FCR funnel i.e. supplier reads initial couple enquiry
+smr_check,INT64,Indicator for step 2 of FCR funnel i.e. supplier reads initial couple enquiry
+sm1_time,TIMESTAMP,Timestamp for step 3 of FCR funnel i.e. supplier responds to initial couple enquiry
+sm1_check,INT64,Indicator for step 3 of FCR funnel i.e. supplier responds to initial couple enquiry
+cmr_time,TIMESTAMP,Timestamp for step 4 of FCR funnel i.e. couple has read supplier response
+cmr_check,INT64,Indicator for step 4 of FCR funnel i.e. couple has read supplier response
+cm2_time,TIMESTAMP,Timestamp for step 5 of FCR funnel i.e. couple has responded to supplier response
+cm2_check,INT64,Indicator for step 5 of FCR funnel i.e. couple has responded to supplier response
+re_time,TIMESTAMP,Timestamp for alternative step of FCR funnel i.e. supplier has revealed couple contact information
+re_check,INT64,Indicator for alternative step of FCR funnel i.e. supplier has revealed couple contact information
+countryCode,STRING,Supplier-level property taken from suppliers_current table to indicate countryCode of supplier
