@@ -37,19 +37,17 @@ This project analyzes user and supplier interactions on a wedding services marke
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure: `wedding-platform-engagement/`
 
-wedding-platform-engagement/
-│
-├── data/
-│ ├── FCR_enquiries.csv
-│ └── FCR_enquiries_descriptions.csv
-│
-├── visuals/
-│ └── supplier_read_rates.png
-│ └── enquiry_distribution_gb.png
-│ └── daily_enquiries_gb_fr.png
-│ └── funnel_drop_off_gb.png
-│
-├── notebook/
-│ └── wedding_supplier_engagement_analysis.ipynb
+1. **data/**
+   - 1.1 `FCR_enquiries.csv`
+   - 1.2 `FCR_enquiries_descriptions.csv`
+
+2. **visuals/**
+   - 2.1 `supplier_read_rates.png`
+   - 2.2 `enquiry_distribution_gb.png`
+   - 2.3 `daily_enquiries_gb_fr.png`
+   - 2.4 `funnel_drop_off_gb.png`
+
+3. **notebook/**
+   - 3.1 `wedding_supplier_engagement_analysis.ipynb`
